@@ -1,0 +1,52 @@
+/* Body styling */
+
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	opacity: 0.9;
+	color: seashell;
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Header styling */
+
+header {
+	display: flex;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	top: 0;
+	height: 69px;
+	border-bottom: solid seashell 1px;
+	margin: 0px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav {
+	padding-right: 20px;
+}
+
+nav span {
+	display: inline-block;
+	padding: 20px 10px;
+	text-align: right;
+}
+
+a {
+	color: seashell;
+	text-decoration: underline;
+}
+
+header img {
+	height: 50px;
+	padding-left: 10px;
+	display: inline-flex;
+	text-align: left;
+}
+
+.content {
+	padding-top: 69px;
+}
