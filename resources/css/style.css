@@ -9,12 +9,12 @@ body {
 	padding: 0px;
 	margin: 0px;
 	text-align: center;
-	align-items: center;
 }
 
 div {
 	display: block;
 }
+
 
 /* Header styling */
 header {
@@ -59,9 +59,9 @@ header img {
 
 .main {
 	padding-top: 70px;
-	align-items: center;
+	width: 1200px;
+	margin: auto;
 }
-
 
 .flex-container {
 	display:flex;
@@ -73,29 +73,35 @@ header img {
 
 #mission {
 	background-image: url(../images/mission.jpg);
-	height: 700px;
 	width: 1200px;
-	align-items: center;
-	justify-content: center;
+	height: 700px;
+	padding-top: 50px;
 }
 
 .content {
-	margin: 290px auto;
+	margin: auto;
 	width: 100%;
 	background-color: black;
 }
 
 /* product section styling */
 
-.flex-container.products {
-	display: flex;
-	justify-content: space-between;
+#products {
+	height: 800px;
 	width: 1000px;
+	margin: auto;
+	padding-top: 70px;
 }
 
 .item img {
 	height: 200px;
 	width: 300px;
+	margin: 0px 15px 0px 15px;
+}
+
+.item h4 {
+	margin: 0px 0px 30px 0px;
+	padding-top: 10px;
 }
 
 
@@ -103,20 +109,33 @@ header img {
 
 #locations {
 	background-image: url(../images/locations.jpg);
-	width: 1200px;
 	height: 500px;
+	padding-top:70px;
 }
-.flex-container.locations {
-	display: flex;
-	justify-content: center;
-	margin: 20px;
-	width: 1000px;
+
+#locations h2 {
+
+	padding-bottom: 15px;
+	margin: auto;
 }
+
 
 .location {
 	width: 300px;
-	margin-left: 20px;
 	background-color: black;
+    margin: 0px 20px 0px 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.location h4 {
+	padding: 20px 0px 20px 0px;
+	margin: 0;
+}
+
+.location p {
+	padding: 20px 0px 20px 0px;
+	margin: 0;
 }
 
 /* contact and footer section */
